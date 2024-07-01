@@ -12,6 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
+    "chatcorner": "file:..",
     "framer-motion": "^11.2.10",
     "mongoose": "^8.4.1",
     "passport-google-oauth2": "^0.2.0",
