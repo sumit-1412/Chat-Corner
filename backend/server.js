@@ -54,9 +54,8 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://chat-corner-obtm.onrender.com/",
-    methods: ["GET", "POST", "PUT"],
-    credentials: true,
+    origin: "*",
+    // credentials: true,
   },
 });
 
